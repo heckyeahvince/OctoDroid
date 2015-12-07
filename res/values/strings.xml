@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OctoDroid</string>
+
+    <!-- Common -->
+    <string name="record_not_found">%1$s not found</string>
+    <string name="loading_msg">Loading\u2026</string>
+    <string name="saving_msg">Saving\u2026</string>
+    <string name="deleting_msg">Deleting\u2026</string>
+    <string name="closing_msg">Closing\u2026</string>
+    <string name="opening_msg">Opening\u2026</string>
+    <string name="merging_msg">Merging\u2026</string>
+    <string name="authenticating">Authenticating\u2026</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="open_source_components">Open source components</string>
+    <string name="my_email">slapperwan@gmail.com</string>
+    <string name="my_web">http://slapperwan.github.com/gh4a</string>
+    <string name="my_username">slapperwan</string>
+    <string name="my_repo">gh4a</string>
+    <string name="feedback_text">If you have any issues or suggestions, please contact me.  Any kind of feedback is greatly appreciated.</string>
+    <string name="feedback_by_email">By Email</string>
+    <string name="feedback_by_gh4a">By OctoDroid</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="other_info">Other Information</string>
+    <string name="view">View</string>
+    <string name="readme">Readme</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="reply">Reply</string>
+    <string name="edit">Edit</string>
+    <string name="members">Members</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="theme">Theme</string>
+    <string name="pub_timeline">Public Timeline</string>
+    <string name="error_connection">Connection error</string>
+    <string name="home">Home</string>
+    <string name="share">Share</string>
+    <string name="download">Download</string>
+    <string name="downloads">Downloads</string>
+    <string name="releases">Releases</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="no_browser_found">The link could not be opened: no browser was found on your device</string>
+    <string name="wrap_lines">Wrap lines</string>
+    <string name="error_toast">An error occurred while fetching data</string>
+    <string name="unknown">unknown</string>
+    <string name="history">History</string>
+    <string name="deleted">(deleted)</string>
+    <string name="go_to">Go to</string>
+    <string name="forked_from">forked from %1$s</string>
+    <string name="enter_username_toast">Please enter your user name instead of your email address</string>
+    <string name="menu_user">User %1$s</string>
+    <string name="menu_repo">Repo %1$s</string>
+    <string name="menu_compare">Compare %1$s</string>
+    <string name="menu_commit">Commit %1$s</string>
+    <string name="menu_issue">Issue %1$d</string>
+    <string name="menu_gist">Gist %1$s</string>
+    <string name="menu_file">File %1$s</string>
+    <string name="menu_fork">Forked repo %1$s</string>
+    <string name="menu_wiki">Wiki in browser</string>
+    <string name="menu_pull">Pull request %1$d</string>
+    <string name="menu_issues">Open issues</string>
+    <string name="delete_comment_message">Delete this comment?</string>
+    <string name="please_wait">Please wait</string>
+    <string name="bookmark_user">Bookmark user</string>
+    <string name="bookmark_repo">Bookmark repo</string>
+    <string name="ellipse" translatable="false">\u2026</string>
+    <string name="view_more">View more\u2026</string>
+    <string name="pulls">Pulls</string>
+    <string name="issue_milestone_hint">Milestone</string>
+    <string name="issue_assignee_hint">Assignee</string>
+    <string name="link_not_openable">Link could not be opened</string>
+    <string name="download_created">Created %1$s</string>
+    <string name="download_mobile_warning_title">Mobile connection download</string>
+    <string name="download_mobile_warning_message">Do you want to download this file using your mobile connection?\nYou can also schedule it for download when you\'re using your Wi-Fi connection next time.</string>
+    <string name="download_now_button">Download now</string>
+    <string name="download_wifi_button">Download over Wi-Fi</string>
+    <string name="download_fail_no_storage_toast">The file could not be downloaded - the storage or SD card isn\'t available.</string>
+	<string name="auth_code">Authentication Code</string>
+	<string name="two_factor_auth">Two-factor Authentication</string>
+	<string name="verify">Verify</string>
+    <string name="confirmation">Are you sure?</string>
+    <string name="unset">Unset</string>
+    <string name="logout_pref_summary_logged_in">Currently logged in as %1$s</string>
+    <string name="logout_pref_summary_logged_out">Currently not logged in</string>
+    <string name="copyright_notice">\u00a9 2014 Azwan Adli, Danny Baumann</string>
+    <string name="actions">Actions</string>
+    <string name="created">Created</string>
+    <string name="assigned">Assigned</string>
+    <string name="mentioned">Mentioned</string>
+    <string name="my_issues">My issues</string>
+    <string name="my_pull_requests">My pull requests</string>
+
+    <plurals name="contributor_extra_data">
+        <item quantity="one">%1$d contribution</item>
+        <item quantity="other">%1$d contributions</item>
+    </plurals>
+
+    <string name="repo_type_all">All</string>
+    <string name="repo_type_owner">Owner</string>
+    <string name="repo_type_member">Member</string>
+    <string name="repo_type_public">Public</string>
+    <string name="repo_type_private">Private</string>
+    <string name="repo_type_sources">Sources</string>
+    <string name="repo_type_forks">Forks</string>
+    <string name="repo_type_watched">Watched</string>
+    <string name="repo_type_starred">Starred</string>
+
+    <string name="no_blogs_found">No blogs found.</string>
+    <string name="no_comments_found">Nobody has commented so far.</string>
+    <string name="no_files_found">No files found.</string>
+    <string name="no_trends_found">No trending repositories found.</string>
+    <string name="no_downloads_found">This repository doesn\'t provide any downloads.</string>
+    <string name="no_milestones_found">This repository doesn\'t have any configured milestone.</string>
+    <string name="no_commits_found">No commits found.</string>
+    <string name="no_followers_found">No followers found.</string>
+    <string name="no_following_found">No users are followed so far.</string>
+    <string name="no_forks_found">This repository wasn\'t forked yet.</string>
+    <string name="no_issues_found">No issues were reported so far.</string>
+    <string name="no_events_found">No events found.</string>
+    <string name="no_pull_requests_found">No pull requests were opened so far.</string>
+    <string name="no_repos_found">No repositories found.</string>
+    <string name="no_search_repos_found">No repositories found matching the criteria.</string>
+    <string name="no_starred_repos_found">No repositories were starred yet.</string>
+    <string name="no_watched_repos_found">No repositories are being watched yet.</string>
+    <string name="no_watchers_found">Nobody is watching this repository yet.</string>
+    <string name="no_stargazers_found">Nobody has starred this repository yet.</string>
+    <string name="no_contributors_found">No contributions were made to this repository yet.</string>
+    <string name="no_releases_found">No releases were created for this repository yet.</string>
+    <string name="no_gists_found">No gists were created so far.</string>
+    <string name="no_starred_gists_found">No gists were starred so far.</string>
+    <string name="no_bookmarks">No bookmarks were created so far.</string>
+
+    <!-- Activity event -->
+    <string name="event_push_title">[b]%1$s[/b] pushed to [b]%2$s[/b] at [b]%3$s[/b]</string>
+    <string name="event_watch_title">[b]%1$s[/b] starred [b]%2$s[/b]</string>
+    <string name="event_create_gist_title">[b]%1$s[/b] created gist [b]%2$s[/b]</string>
+    <string name="event_update_gist_title">[b]%1$s[/b] updated gist [b]%2$s[/b]</string>
+    <string name="event_fork_title">[b]%1$s[/b] forked [b]%2$s[/b]</string>
+    <string name="event_commit_comment_title">[b]%1$s[/b] commented on commit [b]%2$s[/b] at [b]%3$s[/b]</string>
+    <string name="event_fork_apply_title">[b]%1$s[/b] applied fork commits to [b]%2$s[/b]</string>
+    <string name="event_follow_title">[b]%1$s[/b] started following [b]%2$s[/b]</string>
+    <string name="event_create_repo_title">[b]%1$s[/b] created repository [b]%2$s[/b]</string>
+    <string name="event_create_branch_title">[b]%1$s[/b] created %2$s [b]%3$s[/b] at [b]%4$s[/b]</string>
+    <string name="event_issues_title">[b]%1$s[/b] %2$s issue [b]%3$s[/b] on [b]%4$s[/b]</string>
+    <string name="event_delete_repo_title">[b]%1$s[/b] deleted repository [b]%2$s[/b]</string>
+    <string name="event_delete_branch_title">[b]%1$s[/b] deleted %2$s [b]%3$s[/b] at [b]%4$s[/b]</string>
+    <string name="event_pull_request_title">[b]%1$s[/b] %2$s pull request [b]%3$s[/b] on [b]%4$s[/b]</string>
+    <string name="event_pull_request_review_comment_title">[b]%1$s[/b] commented on pull request [b]%2$d[/b] in [b]%3$s[/b]</string>
+    <string name="event_member_title">[b]%1$s[/b] added [b]%2$s[/b] to [b]%3$s[/b]</string>
+    <string name="event_download_title">[b]%1$s[/b] uploaded a file to [b]%2$s[/b]</string>
+    <string name="event_gollum_title">[b]%1$s[/b] edited %2$s in the wiki at [b]%3$s[/b]</string>
+    <string name="event_public_title">[b]%1$s[/b] open sourced [b]%2$s[/b]</string>
+    <string name="event_release_title">[b]%1$s[/b] created a release in [b]%2$s[/b]</string>
+    <string name="event_issue_comment">[b]%1$s[/b] commented on issue [b]%2$d[/b] in [b]%3$s[/b]</string>
+    <string name="event_pull_request_comment">[b]%1$s[/b] commented on pull request [b]%2$d[/b] in [b]%3$s[/b]</string>
+    <string name="event_team_user_add">[b]%1$s[/b] added [b]%2$s[/b] to the team [b]%3$s[/b]</string>
+    <string name="event_team_repo_add">[b]%1$s[/b] added the repository [b]%2$s[/b] to the team [b]%3$s[/b]</string>
+    <plurals name="page">
+        <item quantity="one">a page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+
+    <string name="event_pull_request_desc">%1$s\n%2$d commits with %3$d additions and %4$d deletions</string>
+    <string name="event_follow_desc">%1$s has %2$d repositories and %3$d followers</string>
+    <string name="event_fork_desc">Forked repository is at %1$s</string>
+    <string name="event_create_repo_desc">New repository is at %1$s</string>
+    <string name="event_create_branch_desc">New %1$s is at %2$s/tree/%3$s</string>
+    <string name="event_gollum_desc">View %1$s</string>
+    <string name="event_push_desc">%1$d more commits\u2026</string>
+
+    <string name="user_username">Username</string>
+    <string name="user_password">Password</string>
+    <string name="user_following">Following</string>
+    <string name="user_followers">Followers</string><!-- For type organization -->
+    <string name="user_members">Members</string><!-- For type organization -->
+    <string name="user_created_at">Member since %1$s</string>
+    <string name="user_pub_repos">Repositories</string>
+    <string name="user_extra_data">%1$d followers\u00a0\u00a0\u00a0%2$d repos</string>
+    <string name="user_news_feed">News Feed</string>
+    <string name="user_your_actions">Your Actions</string>
+    <string name="user_public_activity">Public Activity</string>
+    <string name="user_organizations">Organizations</string>
+    <string name="user_follow_action">Follow</string>
+    <string name="user_unfollow_action">Unfollow</string>
+    <string name="user_no_repos">No repositories found</string>
+    <string name="user_no_data">Data for this user can\'t be loaded.</string>
+
+    <!-- Repository -->
+    <string name="repository">Repository</string>
+    <string name="repo_forks">Forks</string>
+    <string name="repo_language">Language %1$s</string>
+    <string name="repo_watchers">Watchers</string>
+    <string name="repo_stargazers">Stargazers</string>
+    <string name="repo_watch_action">Watch</string>
+    <string name="repo_star_action">Star</string>
+    <string name="repo_select_ref">Select branch</string>
+    <string name="repo_select_ref_dialog_title">Select branch or tag</string>
+    <string name="repo_branches">Branches</string>
+    <string name="repo_tags">Tags</string>
+    <string name="repo_unwatch_action">Unwatch</string>
+    <string name="repo_unstar_action">Unstar</string>
+    <string name="repo_download_action">Download code as ZIP</string>
+    <string name="repo_contributors">Contributors</string>
+    <string name="repo_collaborators">Collaborators</string>
+    <string name="repo_files">Files</string>
+    <string name="repo_short">Repos</string>
+    <string name="repo_no_readme">No README file found</string>
+    <string name="repo_issue_on">#%1$d on %2$s</string>
+    <string name="repo_no_data">Data for this repository can\'t be loaded.</string>
+
+    <!-- Issue events -->
+    <string name="issue_event_closed">Issue was closed by %1$s</string>
+    <string name="issue_event_closed_with_commit">Issue was closed by %1$s with commit [commit]</string>
+    <string name="issue_event_reopened">Issue was reopened by %1$s</string>
+    <string name="issue_event_merged">Pull request was merged by %1$s</string>
+    <string name="issue_event_referenced">Issue was referenced by %1$s</string>
+    <string name="issue_event_referenced_with_commit">Issue was referenced by %1$s from commit [commit]</string>
+    <string name="issue_event_assigned">Issue was assigned to [b]%2$s[/b] by %1$s</string>
+    <string name="issue_event_assigned_self">Issue was self-assigned by %1$s</string>
+    <string name="issue_event_unassigned">Issue was unassigned from [b]%2$s[/b] by %1$s</string>
+
+    <!-- Commit -->
+    <string name="commit_title">Commit %1$s</string>
+    <string name="commit">Commit</string>
+    <string name="commits">Commits</string>
+    <string name="commit_changed">Files Changed</string>
+    <string name="commit_added">Files Added</string>
+    <string name="commit_renamed">Files Renamed</string>
+    <string name="commit_deleted">Files Deleted</string>
+    <string name="commit_summary">%1$d changed files with %2$d additions and %3$d deletions.</string>
+    <string name="commit_compare">Compare View</string>
+    <string name="commit_comment_hint">Comment on this commit</string>
+    <string name="commit_details">Committed by [b]%1$s[/b] %2$s</string>
+    <string name="commit_comment_dialog_title">Comment on line %1$d</string>
+    <string name="commit_comment_error_body">Please enter your comment.</string>
+
+    <!-- Release -->
+    <string name="release_details">Released by [b]%1$s[/b] %2$s</string>
+    <string name="release_tag">On tag %1$s</string>
+    <string name="release_notes">Release notes</string>
+    <string name="release_type_final">Final release</string>
+    <string name="release_type_draft">Draft</string>
+    <string name="release_type_prerelease">Pre-release</string>
+    <string name="release_no_releasenotes">No release notes were given.</string>
+
+    <string name="issues">Issues</string>
+    <string name="issue">Issue</string>
+    <string name="issues_open">Open Issues</string>
+    <string name="issues_closed">Closed Issues</string>
+    <string name="issues_menu_show_open">Show Open</string>
+    <string name="issues_menu_show_closed">Show Closed</string>
+    <string name="issue_comments">Comments</string>
+    <string name="issue_title">Title</string>
+    <string name="issue_body">Body</string>
+    <string name="issue_create">New Issue</string>
+    <string name="issue_error_title">Please enter a title</string>
+    <string name="issue_success_create">Successfully created issue</string>
+    <string name="issue_edit_title">Edit Issue #%1$d</string>
+    <string name="issue_success_edit">Successfully edited issue</string>
+    <string name="issue_success_close">Successfully closed issue</string>
+    <string name="issue_error_close">Cannot close issue</string>
+    <string name="issue_success_reopen">Successfully reopened issue</string>
+    <string name="issue_error_reopen">Cannot reopen issue</string>
+    <string name="issue_sort_order">Sort order</string>
+    <string name="issue_sort_created_asc">Oldest</string>
+    <string name="issue_sort_created_desc">Newest</string>
+    <string name="issue_sort_updated_asc">Least recently updated</string>
+    <string name="issue_sort_updated_desc">Most recently updated</string>
+    <string name="issue_sort_comments_asc">Least commented</string>
+    <string name="issue_sort_comments_desc">Most commented</string>
+    <string name="issue_manage_labels">Manage Labels</string>
+    <string name="issue_manage_milestones">Manage Milestones</string>
+    <string name="issue_labels">Labels</string>
+    <string name="issue_milestones">Milestones</string>
+    <string name="issue_dialog_delete_title">Delete %1$s?</string>
+    <string name="issue_dialog_delete_message">Are you sure?</string>
+    <string name="issue_success_comment">Successfully created comment</string>
+    <string name="issue_error_comment">Cannot create comment</string>
+    <string name="issue_error_create_label">Cannot create label</string>
+    <string name="issue_error_edit_label">Cannot edit label</string>
+    <string name="issue_error_create_milestone">Cannot create milestone</string>
+    <string name="issue_error_milestone_title">Please enter a title</string>
+    <string name="issue_label_new">New Label</string>
+    <string name="issue_milestone">Milestone: %1$s</string>
+    <string name="issue_milestone_new">New Milestone</string>
+    <string name="issue_milestone_edit">Edit Milestone</string>
+    <string name="issue_milestone_open_issues">%d open</string>
+    <string name="issue_milestone_closed_issues">%d closed</string>
+    <string name="issue_filter">Filter</string>
+    <string name="issue_filter_by_labels">Filter by labels</string>
+    <string name="issue_filter_by_milestone">Filter by milestone</string>
+    <string name="issue_filter_by_assignee">Filter by assignee</string>
+    <string name="issue_filter_by_any_milestone">Any milestone</string>
+    <string name="issue_filter_by_any_assignee">Any assignee</string>
+    <string name="issue_clear_milestone">No milestone</string>
+    <string name="issue_clear_assignee">No assignee</string>
+    <string name="issue_no_labels">No labels assigned</string>
+    <string name="issue_milestone_collab_only">Milestone can only be set by repo collaborators</string>
+    <string name="issue_assignee_collab_only">Assignee can only be set by repo collaborators</string>
+    <string name="issue_labels_collab_only">Labels can only be set by repo collaborators</string>
+    <string name="issue_milestone_due_date">Due Date</string>
+    <string name="issue_milestone_due_unset">No date set</string>
+    <string name="issue_assignee">%1$s is assigned</string>
+    <string name="issue_comment_title">Comment</string>
+    <string name="issue_comment_update_title">Update</string>
+    <string name="issue_comment_hint">Comment on this issue</string>
+    <string name="issue_comment_header">[b]%1$s[/b]</string>
+    <string name="issue_commit_comment_file">Comment on [b]%1$s[/b]</string>
+    <string name="commit_comment_header">%1$s added a note %2$s</string>
+
+    <!-- Pull Request -->
+    <string name="pull_request_title">Pull Request</string>
+    <string name="pull_request_conversation">Conversation</string>
+    <string name="pull_request_files">Files</string>
+    <string name="pull_requests">Pull Requests</string>
+    <string name="pull_requests_open">Open Pull Requests</string>
+    <string name="pull_requests_closed">Closed Pull Requests</string>
+    <string name="pull_request_comment_hint">Comment on this pull request</string>
+    <string name="view_pull_request">View pull request</string>
+    <string name="pull_request_reopen">Reopen</string>
+    <string name="pull_request_close">Close</string>
+    <string name="pull_request_merge">Merge</string>
+    <string name="pull_request_merged">Merged</string>
+    <string name="pull_error_merge">Pull request could not be merged</string>
+    <string name="pull_message_dialog_title">Merge pull request #%1$d</string>
+    <string name="pull_merge_message_description">If you want to add additional details to the merge commit message, please enter them below.</string>
+
+    <!-- Object -->
+    <string name="object_view_file_at">View file @ %1$s</string>
+
+    <!-- Gist -->
+    <string name="mine">Mine</string>
+    <string name="starred">Starred</string>
+    <string name="gists">Gists</string>
+    <string name="gist_title">Gist %1$s</string>
+    <string name="gist_no_description">&lt;No description&gt;</string>
+    <string name="gist_files">Files</string>
+
+    <!-- Explore -->
+    <string name="navigation">Navigation</string>
+    <string name="explore">Explore</string>
+
+    <!-- Trending repos -->
+    <string name="trend">Trending Repos</string>
+    <string name="trend_today">Today</string>
+    <string name="trend_week">Week</string>
+    <string name="trend_month">Month</string>
+
+    <!-- GitHub Blog -->
+    <string name="blog">GitHub Blog</string>
+
+    <!-- Recent Wiki Updates -->
+    <string name="recent_wiki">Recent Wiki Updates</string>
+
+    <!-- Bookmarks -->
+    <string name="remove_bookmark">Remove bookmark</string>
+    <string name="remove_bookmark_confirm">Do you really want to remove this bookmark?</string>
+    <string name="bookmark_saved">Bookmark saved</string>
+
+    <!-- Search -->
+    <string name="search_type_repo">Repository</string>
+    <string name="search_type_user">User</string>
+    <string name="search_hint_repo">Search for repositories</string>
+    <string name="search_hint_user">Search for users</string>
+
+    <!-- Sharing -->
+    <string name="send_email_title">Select email application</string>
+    <string name="share_title">Share via</string>
+    <string name="share_file_subject">%1$s at %2$s</string>
+    <string name="share_gist_subject">Gist %1$s by %2$s</string>
+    <string name="share_issue_subject">Issue # %1$d (%2$s) at %3$s</string>
+    <string name="share_pull_subject">Pull Request # %1$d (%2$s) at %3$s</string>
+    <string name="share_commit_subject">Commit #%1$s at %2$s</string>
+    <string name="share_user_subject">User %1$s (%2$s)</string>
+    <string name="share_user_subject_loginonly">User %1$s</string>
+
+    <!-- Webview text size -->
+    <string name="menu_text_size">Text size</string>
+</resources>

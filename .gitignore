@@ -1,0 +1,12 @@
+# Gradle stuff
+build
+.gradle
+
+# Android Studio stuff
+.idea
+*.properties
+*.iml
+
+# Crashlytics generated files
+assets/crashlytics-build.properties
+res/values/com_crashlytics_export_strings.xml

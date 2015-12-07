@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DarkTheme" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="headerTheme">@style/Theme.Header</item>
+        <item name="alertDialogTheme">@style/DarkAlertDialogTheme</item>
+        <item name="drawerTitleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Widget.ActionBar.Menu</item>
+        <item name="sendIcon">@drawable/social_send_dark</item>
+        <item name="contentEditIcon">@drawable/content_edit_dark</item>
+        <item name="contentPictureIcon">@drawable/content_picture_dark</item>
+        <item name="searchUserIcon">@drawable/search_users_dark</item>
+        <item name="searchRepoIcon">@drawable/search_repos_dark</item>
+        <item name="userBookmarkIcon">@drawable/user_bookmark_dark</item>
+        <item name="repoBookmarkIcon">@drawable/repo_bookmark_dark</item>
+        <item name="submoduleIcon">@drawable/submodule_dark</item>
+        <item name="dirIcon">@drawable/folder_dark</item>
+        <item name="fileIcon">@drawable/file_dark</item>
+        <item name="commentsIcon">@drawable/comments_dark</item>
+        <item name="languageSmallIcon">@drawable/language_small_dark</item>
+        <item name="forkSmallIcon">@drawable/fork_small_dark</item>
+        <item name="starSmallIcon">@drawable/star_small_dark</item>
+        <item name="sizeSmallIcon">@drawable/size_small_dark</item>
+        <item name="dueSmallIcon">@drawable/due_small_dark</item>
+        <item name="milestoneSmallIcon">@drawable/milestone_small_dark</item>
+        <item name="downloadSmallIcon">@drawable/download_small_dark</item>
+        <item name="filesSmallIcon">@drawable/files_small_dark</item>
+        <item name="dueIcon">@drawable/due_dark</item>
+        <item name="milestoneIcon">@drawable/milestone_dark</item>
+        <item name="assigneeIcon">@drawable/assignee_dark</item>
+        <item name="labelsIcon">@drawable/labels_dark</item>
+        <item name="branchIcon">@drawable/branch_dark</item>
+        <item name="tagIcon">@drawable/label_dark</item>
+        <item name="cardViewTheme">@style/Theme.CardView.Dark</item>
+        <item name="colorAccent">@color/dark_accent</item>
+        <item name="colorPrimary">@color/dark_accent</item>
+        <item name="colorPrimaryDark">@color/dark_accent_dark</item>
+        <item name="android:textColorLink">@color/dark_link_color</item>
+        <item name="actionBarTabStyle">@style/Widget.ActionBar.TabView</item>
+        <item name="listBackground">@android:color/transparent</item>
+        <item name="drawerBackground">@color/background_floating_material_dark</item>
+        <item name="colorIssueOpen">@color/issue_open_dark</item>
+        <item name="colorIssueClosed">@color/issue_closed_dark</item>
+        <item name="colorPullRequestMerged">@color/pr_merged_dark</item>
+        <item name="colorIssueOpenDark">@color/issue_open_dark_dark</item>
+        <item name="colorIssueClosedDark">@color/issue_closed_dark_dark</item>
+        <item name="colorPullRequestMergedDark">@color/pr_merged_dark_dark</item>
+        <item name="colorIssueEditFab">@color/issue_edit_fab_dark</item>
+        <item name="colorCommitAddition">#79d242</item>
+        <item name="colorCommitDeletion">#d25151</item>
+        <item name="colorFab">@color/default_fab_dark</item>
+    </style>
+
+    <style name="DarkAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorPrimary">@color/dark_accent</item>
+        <item name="colorAccent">@color/dark_accent</item>
+    </style>
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="headerTheme">@style/Theme.Header.Light</item>
+        <item name="alertDialogTheme">@style/LightAlertDialogTheme</item>
+        <item name="drawerTitleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Widget.ActionBar.Menu</item>
+        <item name="sendIcon">@drawable/social_send</item>
+        <item name="contentEditIcon">@drawable/content_edit</item>
+        <item name="contentPictureIcon">@drawable/content_picture</item>
+        <item name="searchUserIcon">@drawable/search_users</item>
+        <item name="searchRepoIcon">@drawable/search_repos</item>
+        <item name="userBookmarkIcon">@drawable/user_bookmark</item>
+        <item name="repoBookmarkIcon">@drawable/repo_bookmark</item>
+        <item name="submoduleIcon">@drawable/submodule</item>
+        <item name="dirIcon">@drawable/folder</item>
+        <item name="fileIcon">@drawable/file</item>
+        <item name="commentsIcon">@drawable/comments</item>
+        <item name="languageSmallIcon">@drawable/language_small</item>
+        <item name="forkSmallIcon">@drawable/fork_small</item>
+        <item name="starSmallIcon">@drawable/star_small</item>
+        <item name="sizeSmallIcon">@drawable/size_small</item>
+        <item name="dueSmallIcon">@drawable/due_small</item>
+        <item name="milestoneSmallIcon">@drawable/milestone_small</item>
+        <item name="downloadSmallIcon">@drawable/download_small</item>
+        <item name="filesSmallIcon">@drawable/files_small</item>
+        <item name="dueIcon">@drawable/due</item>
+        <item name="milestoneIcon">@drawable/milestone</item>
+        <item name="assigneeIcon">@drawable/assignee</item>
+        <item name="labelsIcon">@drawable/labels</item>
+        <item name="branchIcon">@drawable/branch</item>
+        <item name="tagIcon">@drawable/label</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.Light.ListPopupWindow</item>
+        <item name="cardViewTheme">@style/Theme.CardView.Light</item>
+        <item name="colorAccent">@color/light_accent</item>
+        <item name="colorPrimary">@color/light_accent</item>
+        <item name="colorPrimaryDark">@color/light_accent_dark</item>
+        <item name="android:textColorLink">@color/light_link_color</item>
+        <item name="actionBarTabStyle">@style/Widget.ActionBar.TabView</item>
+        <item name="listBackground">@android:color/white</item>
+        <item name="drawerBackground">@color/background_floating_material_light</item>
+        <item name="colorIssueOpen">@color/issue_open_light</item>
+        <item name="colorIssueClosed">@color/issue_closed_light</item>
+        <item name="colorPullRequestMerged">@color/pr_merged_light</item>
+        <item name="colorIssueOpenDark">@color/issue_open_light_dark</item>
+        <item name="colorIssueClosedDark">@color/issue_closed_light_dark</item>
+        <item name="colorPullRequestMergedDark">@color/pr_merged_light_dark</item>
+        <item name="colorIssueEditFab">@color/issue_edit_fab_light</item>
+        <item name="colorCommitAddition">#65b345</item>
+        <item name="colorCommitDeletion">#b34545</item>
+        <item name="colorFab">@color/default_fab_light</item>
+    </style>
+
+    <style name="LightAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/light_accent</item>
+        <item name="colorAccent">@color/light_accent</item>
+    </style>
+
+    <style name="Theme.Header" parent="Theme.AppCompat">
+        <item name="colorAccent">#ffffff</item>
+        <item name="colorControlActivated">#ffffff</item>
+    </style>
+
+    <style name="Theme.Header.Light">
+        <item name="android:spinnerStyle">@style/Widget.Spinner.ActionBar.Light</item>
+        <!-- used by appcompat to tint the spinner background drawable -->
+        <item name="android:colorBackground">#ffffff</item>
+    </style>
+</resources>

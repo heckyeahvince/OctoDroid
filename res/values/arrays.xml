@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="repo_list_login_items">
+        <item>@string/repo_type_all</item>
+        <item>@string/repo_type_owner</item>
+        <item>@string/repo_type_member</item>
+        <item>@string/repo_type_public</item>
+        <item>@string/repo_type_private</item>
+        <item>@string/repo_type_sources</item>
+        <item>@string/repo_type_forks</item>
+        <item>@string/repo_type_watched</item>
+        <item>@string/repo_type_starred</item>
+    </array>
+    <array name="repo_list_org_items">
+        <item>@string/repo_type_all</item>
+        <item>@string/repo_type_member</item>
+        <item>@string/repo_type_public</item>
+        <item>@string/repo_type_private</item>
+        <item>@string/repo_type_sources</item>
+        <item>@string/repo_type_forks</item>
+        <item>@string/repo_type_watched</item>
+        <item>@string/repo_type_starred</item>
+    </array>
+    <array name="repo_list_user_items">
+        <item>@string/repo_type_all</item>
+        <item>@string/repo_type_owner</item>
+        <item>@string/repo_type_member</item>
+        <item>@string/repo_type_sources</item>
+        <item>@string/repo_type_forks</item>
+        <item>@string/repo_type_watched</item>
+        <item>@string/repo_type_starred</item>
+    </array>
+    <string-array name="repo_list_login_values" translatable="false">
+        <item>all</item>
+        <item>owner</item>
+        <item>member</item>
+        <item>public</item>
+        <item>private</item>
+        <item>sources</item>
+        <item>forks</item>
+        <item>watched</item>
+        <item>starred</item>
+    </string-array>
+    <string-array name="repo_list_org_values" translatable="false">
+        <item>all</item>
+        <item>member</item>
+        <item>public</item>
+        <item>private</item>
+        <item>sources</item>
+        <item>forks</item>
+        <item>watched</item>
+        <item>starred</item>
+    </string-array>
+    <string-array name="repo_list_user_values" translatable="false">
+        <item>all</item>
+        <item>owner</item>
+        <item>member</item>
+        <item>sources</item>
+        <item>forks</item>
+        <item>watched</item>
+        <item>starred</item>
+    </string-array>
+    <string-array name="theme_items">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="theme_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="text_size_items">
+        <item>Smallest</item>
+        <item>Smaller</item>
+        <item>Normal</item>
+        <item>Larger</item>
+        <item>Largest</item>
+    </string-array>
+    <string-array name="text_size_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
